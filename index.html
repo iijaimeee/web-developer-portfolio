@@ -20,11 +20,11 @@
 		<title>James</title>
 	</head>
 	<body>
-		<div class="col">
+		<div class="col container">
 			<!-- Landing Section Start -->
 			<div id="landing-container"> 
-				<div id="landing">
-					<ul class="text-center">
+				<div id="landing" class="container-fluid">
+					<ul class="text-center text-white">
 						<li><a href="#landing">Home</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><h2>James</h2></li>
@@ -71,27 +71,30 @@
 			
 			<!-- Tools Section Start -->
 			<div id="tools">
-
-
-
+				<div>
+					<h1 class="text-center">Tools</h1>
+					<img src="./images/html.png" id="html">
+					<img src="./images/css.png" id="css">
+					<img src="./images/js.png" id="js">
+					<img src="./images/sublime.png" id="sublime">
+				</div>
 			</div>
 			<!-- Tools Section End -->
 
 			<!-- Contact Section Start -->
-			<div id="contact">
+			<div id="contact" class="container">
 				<div>
 					<ul>
-						<li>Facebook</li>
-						<li>LinkedIn</li>
-						<li>Facebook</li>
-						<li>GitHub</li>
+						<li><a href="https://web.facebook.com/"><img src="./images/fb.png" id="fb"></a></li>
+						<li><a href="https://github.com/"><img src="./images/github.png" id="github"></a></li>
+						<li><a href="https://www.linkedin.com/"><img src="./images/linkedin.png" id="linkedin"></a></li>				
 					</ul>
 
 				</div>
 
 				<!-- Contact Form -->
 				<div>
-				<form action="./index.html">
+				<form action="./index.html" class="form-block">
 					<label for="nameInput">Name:</label>
 					<input type="text" id="textInput" placeholder="Name" required>
 

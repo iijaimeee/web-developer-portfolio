@@ -4,6 +4,11 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: Mooli, sans-serif;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -12,18 +17,10 @@ body {
 	background-repeat: no-repeat;
 }
 
-/*
-#landing {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background-color: #333;
-}
 
-#landing-container:hover #landing {
-	display: block;	
-}*/
+#landing {
+	background-color: #00008B;
+}
 
 ul {
 	list-style-type: none;
@@ -38,3 +35,45 @@ li {
 	width: 200px;
 	height: auto;
 }
+
+#fb {
+	height: 50px;
+	width: 50px;
+}
+
+#github {
+	height: 50px;
+	width: 50px;
+}
+
+#linkedin {
+	justify-content: ;
+	height: 50px;
+	width: 50px;
+}
+
+#html {
+	justify-content: ;
+	height: 200px;
+	width: 200px;
+}
+
+#css {
+	justify-content: ;
+	height: 200px;
+	width: 200px;
+}
+
+#js {
+	justify-content: ;
+	height: 200px;
+	width: 200px;
+}
+
+#sublime {
+	justify-content: ;
+	height: 175px;
+	width: 175px;
+}
+
+
