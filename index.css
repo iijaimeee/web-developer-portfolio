@@ -12,22 +12,35 @@ html {
 }
 
 body {
-	background-image: url(./images/bg.jpg);
+	/*background-image: url(./images/bg.jpg);
+
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+
+	background-color: #CDF5FD;
 }
 
-
-#landing {
-	background-color: #00008B;
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 }
 
-li {
-	display: inline-block;
+.navbar {
+	background-color: #89CFF3;
+	font-size: 1.25rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.nav-item {
+	float: right;
+}
+
+.nav-item a {
 	padding: 0 25px 0 25px;
 }
 
@@ -36,44 +49,25 @@ li {
 	height: auto;
 }
 
-#fb {
-	height: 50px;
-	width: 50px;
-}
-
-#github {
-	height: 50px;
-	width: 50px;
-}
-
-#linkedin {
-	justify-content: ;
-	height: 50px;
-	width: 50px;
-}
-
-#html {
-	justify-content: ;
-	height: 200px;
-	width: 200px;
-}
-
-#css {
-	justify-content: ;
-	height: 200px;
-	width: 200px;
-}
-
-#js {
-	justify-content: ;
-	height: 200px;
-	width: 200px;
-}
-
-#sublime {
-	justify-content: ;
+.tools-icons {
 	height: 175px;
 	width: 175px;
 }
+
+.contact-icons {
+	height: 50px;
+	width: 50px;
+}
+
+#jp {
+	font-family: 'Cedarville Cursive', cursive !important; 
+	font-size: 2.5rem;
+}
+
+#landing {
+	background-color: #CDF5FD;
+}
+
+
 
 
